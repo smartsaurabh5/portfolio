@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignments Dashboard</title>
+<style>
+body {
+font-family: Arial, sans-serif; background-color: #f4f4f9; margin: 0;
+padding: 0;
+}
+header {
+background-color: #4CAF50; color: white;
+padding: 10px; text-align: center;
+}
+.container {
+max-width: 1200px; margin: 20px auto; padding: 20px; background-color: white; border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+text-align: center;
+}
+.assignment-list { list-style: none; padding: 0;
+}
+.assignment-list li {
+border-bottom: 1px solid #ddd; padding: 10px;
+}
+.assignment-list li a { text-decoration: none; color: #333;
+font-weight: bold;
+}
+ 
+.assignment-list li a:hover { color: #4CAF50;
+}
+.description { font-size: 14px; color: #666;
+}
+.info-section {
+margin-bottom: 30px;
+}
+.info-section h3 { margin: 0 0 10px;
+}
+footer {
+background-color: #4CAF50; color: white;
+text-align: center; padding: 10px; position: fixed; width: 100%;
+bottom: 0;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>IIIT Bhopal</h1>
+<h1>CT Lab Assignment</h1>
+</header>
+
+<div class="container">
+
+<!-- Information Section -->
+<div class="info-section">
+
+<p><strong>Name:</strong> Siddharth Tripathi</p>
+<p><strong>Scholar Number:</strong> 24P03F0035</p>
+<p><strong>Submitted to:</strong> Dr. Supriya Agrawal</p>
+<p><strong>Subject Code:</strong> MCA-2006</p>
+</div>
+
+<h2>Assignments</h2>
+<ul class="assignment-list">
+<li>
+<h3>Section A (HTML Programming Assignments)</h3>
+<a href="AssignmentA1">Assignment 1.1: Recipe Page</a>
+<p class="description">Create a Recipe Page (single HTML page with no hyperlinks). </p>
+</li>
+<li>
+<a href="AssignmentA21">Assignment 1.2: Greeting Card</a>
+ 
+<p class="description">Greeting Card having at-least 2 pages. </p>
+</li>
+<li>
+<a href="AssignmentA31">Assignment 1.3: Invitation to a conference.</a>
+<p class="description">Draft an Invitation to a conference. The invitation should contain a hyperlink to the conference page.</p>
+</li>
+<li>
+<a href="AssignmentA4">Assignment 1.4: Tutorial Page</a>
+<p class="description">Create a tutorial page for Python with various tabs and links. No more than five different tabs in the main page. Pick some basic introductory topics of Python programming language for creating a tutorial. </p>
+</li>
+<li>
+<h3>Section B (Django Programming Assignments)</h3>
+<a href="/countdown/">Assignment 2.1: Countdown time</a>
+<p class="description">Create a countdown time with Django.</p>
+</li>
+<li>
+<a href="/agecalc/">Assignment 2.2: Age Calculator</a>
+<p class="description">Build an age calculator. The user will enter date, month and year of birth. A button with text as Calculate Age when clicked should display the age of the user as per the birthdate entered.</p>
+</li>
+<li>
+<a href="/converter/">Assignment 2.3: Distance converter.</a>
+<p class="description">Create a distance converter. It should have a drop-down menu to convert among the following measurements. (a) feet, (b) cm, (c) inches, (d) meters, (e) miles</p>
+</li>
+</ul>
+
+</div>
+
+<footer>
+<p>Submitted By : Siddharth Tripathi (24P03F0035)</p>
+</footer>
+
+</body>
+</html>
